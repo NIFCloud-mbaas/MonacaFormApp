@@ -8,7 +8,7 @@ class: center, middle, inverse
 .right[<img src="document-img/takano.png" alt="takano.png" width="150px">]
 
 .footnote[
-2018/02/14作成（2018/05/21更新）
+2018/02/14作成（2021/01/12更新）
 ]
 
 ---
@@ -101,7 +101,7 @@ __問い合わせフォーム__ をイメージしたサンプルアプリを通
 ]
 ## 今回利用するツール
 ### ニフクラ mobile backend
-__にふくら-もばいる-ばっくえんど 【[ニフクラ mobile backend](http://mb.cloud.nifty.com/about.htm)】__ スマートフォンアプリに必要なバックエンド機能が開発不要で利用できるクラウドサービス。 クラウド上に用意された機能を API で呼び出すだけで利用できます。また、APIを簡単に使うための SDK を用意しています（ iOS / Android / Monaca / Unity ）。mobile Backend as a Service の頭文字を取って、通称 **mBaaS** と呼ばれます。
+__にふくら-もばいる-ばっくえんど 【[ニフクラ mobile backend](https://mbaas.nifcloud.com/about.htm)】__ スマートフォンアプリに必要なバックエンド機能が開発不要で利用できるクラウドサービス。 クラウド上に用意された機能を API で呼び出すだけで利用できます。また、APIを簡単に使うための SDK を用意しています（ Swift / Objective-C / Android / Monaca / Unity ）。mobile Backend as a Service の頭文字を取って、通称 **mBaaS** と呼ばれます。
 
 .center[<img src="document-img/About_mBaaS.png" alt="About_mBaaS" width="300px">]
 
@@ -153,7 +153,7 @@ layout: false
 * Monaca の利用登録（無料）
   * https://ja.monaca.io/register/start.html
 * ニフクラ mobile backend の利用登録（無料）
-  * http://mb.cloud.nifty.com/signup.htm
+  * https://mbaas.nifcloud.com/signup.htm
 * ブラウザ Chrome 最新版
 * Monaca デバッガー（任意）
   * https://ja.monaca.io/debugger.html
@@ -228,23 +228,24 @@ https://ja.monaca.io/
 
 ### サンプルプロジェクトのインポート
 
+* プロジェクトをダウンロードします
+  * 下記リンクをクリックし、プロジェクト（zip）をダウンロードします
+  * https://github.com/natsumo/MonacaFormApp/archive/master.zip
+* Monaca にプロジェクトをインポートします
+  * 「インポート」をクリックし、インポート方法「ZIPファイル」を選択し、先ほどダウンロードしたzipファイルを選択します
+  * プロジェクト情報を入力して「プロジェクトのインポート」をクリックします
+
 .left-column[
+* 作成されたプロジェクトを選択し、右側に表示される「クラウドIDEで開く」をクリックします
+* プロジェクトが表示されます
 
-* プロジェクトをインポートします
-  * 右記リンク先ページを開き「インポート」をクリックします
-* プロジェクトがインポートされたら「開く」をクリックします
-
+これで Monaca の準備は完了です。
 ]
-
 .right-column[
-
-.size_large_18[ <br>**https://goo.gl/hikadh** ]
-
+.center[<img src="document-img/import_project_1.png" alt="import_project_1" width="400px">]
 ]
 
-.center[<img src="document-img/import_project_1.png" alt="import_project_1" width="600px">]
 
-これで Monaca の準備は完了です
 
 ---
 .footnote_right[
@@ -260,7 +261,7 @@ https://ja.monaca.io/
 
 .center[<img src="document-img/make_mb_app_0.png" alt="make_mb_app_0" width="600px">]
 
-http://mb.cloud.nifty.com/
+https://mbaas.nifcloud.com/
 
 ---
 .footnote_right[
@@ -791,7 +792,7 @@ inquiry.set("emailAddress", "test@test.jp")
 * **参照権限（ACL）**
   * データの読み書きを制限できます
 
-参考：[データストア \(Monaca\) : 基本的な使い方 \| ニフクラ mobile backend](http://mb.cloud.nifty.com/doc/current/datastore/basic_usage_monaca.html)
+参考：[データストア \(Monaca\) : 基本的な使い方 \| ニフクラ mobile backend](https://mbaas.nifcloud.com/doc/current/datastore/basic_usage_monaca.html)
 ---
 .footnote_right[
 .right[
@@ -854,15 +855,15 @@ layout: false
 使いやすくて便利な mobile backend をもっと活用してみたい方へ、mobile backendの各機能をすぐに試すことができるサンプルアプリを多数ご用意しています。Monacaにサンプルプロジェクトをインポートして、簡単な操作をするだけですぐにお試しいただけます！ぜひご活用ください。
 
 .size_large_11[
-* [mobile backend を体験しよう！](https://github.com/NIFTYCloud-mbaas/monaca_data_registration)
+* [mobile backend を体験しよう！](https://github.com/NIFCLOUD-mbaas/monaca_data_registration)
  * 使用機能 / データストア
-* [アプリにログイン機能をつけよう！](https://github.com/NIFTYCloud-mbaas/monaca_login_template)
+* [アプリにログイン機能をつけよう！](https://github.com/NIFCLOUD-mbaas/monaca_login_template)
  * 使用機能 / 会員管理
-* [アプリにプッシュ通知を組み込もう！](https://github.com/NIFTYCloud-mbaas/MonacaPushApp)
+* [アプリにプッシュ通知を組み込もう！](https://github.com/NIFCLOUD-mbaas/MonacaPushApp)
  * 使用機能 / プッシュ通知
-* [地図アプリを作ろう！](https://github.com/NIFTYCloud-mbaas/MonacaMapApp)
+* [地図アプリを作ろう！](https://github.com/NIFCLOUD-mbaas/MonacaMapApp)
  * 使用機能 / データストア,位置情報検索
-* [and more...](http://mb.cloud.nifty.com/doc/current/tutorial/tutorial_monaca.html)
+* [and more...](https://mbaas.nifcloud.com/doc/current/tutorial/tutorial_monaca.html)
 ]
 
 ---
