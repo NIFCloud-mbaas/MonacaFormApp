@@ -230,7 +230,7 @@ https://ja.monaca.io/
 
 * プロジェクトをダウンロードします
   * 下記リンクをクリックし、プロジェクト（zip）をダウンロードします
-  * https://github.com/natsumo/MonacaFormApp/archive/master.zip
+  * https://github.com/NIFCLOUD-mbaas/MonacaFormApp/archive/master.zip
 * Monaca にプロジェクトをインポートします
   * 「インポート」をクリックし、インポート方法「ZIPファイル」を選択し、先ほどダウンロードしたzipファイルを選択します
   * プロジェクト情報を入力して「プロジェクトのインポート」をクリックします
