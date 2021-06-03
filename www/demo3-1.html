@@ -1,7 +1,7 @@
 <ons-page id="demo3-1Page">
     <ons-toolbar>
         <div class="left">
-            <ons-toolbar-button onclick="fn.open()">
+            <ons-toolbar-button id="open_menu" onclick="fn.open()">
                 <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
             </ons-toolbar-button>
         </div>
@@ -16,7 +16,7 @@
               <ons-input id="inputSearchEmailAddress" type="text" modifier="underbar" placeholder="email address" float></ons-input>
             </p>
             <div style="text-align: center; padding-bottom: 10px;">
-                <ons-button onclick="searchEmailAddress();">検索</ons-button>
+                <ons-button id="searchEmail" onclick="searchEmailAddress();">検索</ons-button>
             </div>
         </ons-list>
         <ons-list>
@@ -24,7 +24,7 @@
             <div style="text-align: center;">
                 <select id="inputSearchPrefecture" class="select-input select-input--material"></select>
                 <div style="text-align: center; padding-bottom: 10px; padding-top: 10px;">
-                    <ons-button onclick="searchPrefecture();">検索</ons-button>
+                    <ons-button id="searchPrefecture" onclick="searchPrefecture();">検索</ons-button>
                 </div>
             </div>
         </ons-list>

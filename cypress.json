@@ -1,0 +1,12 @@
+{
+    "watchForFileChanges": false,
+    "chromeWebSecurity": false,
+    "testFiles": [
+      "**/*.{feature,features}",
+      "menu.spec.js",
+      "demo1.spec.js",
+      "demo2.spec.js",
+      "demo3-1.spec.js",
+      "demo3-2.spec.js"
+    ]
+  }

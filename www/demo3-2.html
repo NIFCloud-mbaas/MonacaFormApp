@@ -1,7 +1,7 @@
 <ons-page id="demo3-2Page">
     <ons-toolbar>
         <div class="left">
-            <ons-toolbar-button onclick="fn.open()">
+            <ons-toolbar-button id="open_menu" onclick="fn.open()">
                 <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
             </ons-toolbar-button>
         </div>
@@ -16,7 +16,7 @@
                 <select id="inputAgeGreaterThan" class="select-input select-input--material"></select>以上
                 <select id="inputAgeLessThan" class="select-input select-input--material"></select>未満
                 <div style="text-align: center; padding-bottom: 10px; padding-top: 10px;">
-                    <ons-button onClick="searchAge();">検索</ons-button>
+                    <ons-button id="searchAge" onClick="searchAge();">検索</ons-button>
                 </div>
             </div>
         </ons-list>
